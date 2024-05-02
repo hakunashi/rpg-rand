@@ -1,0 +1,16 @@
+{
+    "name": "isaacrasolofo/rpg-php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Isaacrasolofo\\RpgPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Isaac Rasolofo",
+            "email": "isaacrasolofo@gmail.com"
+        }
+    ],
+    "require": {}
+}
