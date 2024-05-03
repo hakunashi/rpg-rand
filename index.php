@@ -1,19 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aléa RPG</title>
-</head>
+<?php
+    $title = "Acceuil";
 
-<body>
+    include("./src/block/header.php");
 
-    <main>
-        <h1>RPG aléatoire</h1>
+    session_destroy();
+?>
 
-        <a href="#">commencer une partie</a>  
-    </main>
+<main>
+    <a id="startGame" href="#">commencer une partie</a>  
+</main>
 
-</body>
-
-</html>
+<?php
+    include("./src/block/footer.php");
+?>

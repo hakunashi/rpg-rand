@@ -1,0 +1,18 @@
+body, * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body main a, body main a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+body main a#startGame {
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,9 @@
 <?php
 
+namespace SkillNameSpace;
+
+require "Skills.php";
+
 class Character {
 
     /*----------STRUCTURE----------*/
@@ -139,6 +143,20 @@ class Character {
 
 }
 
+$compe = new Skills(
+    "attaque",
+    "physique",
+    "neutre",
+    "mana",
+    0,
+    20,
+    40,
+    false,
+    0
+);
+
+var_dump($compe->getDamage());
+
 $competences = [
     "Attaque Rapide", 
     "Défense Magique", 
@@ -197,5 +215,7 @@ echo "Défense : " . $perso3->getDef() . "<br> <br>";
 for ($i = 0; $i < 3; $i++) {
     echo "skill " . $i + 1 . ": " . $perso3->getSkills()[$i] . "<br>";
 }
+
+
 
 ?>
